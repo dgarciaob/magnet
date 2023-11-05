@@ -35,7 +35,7 @@ function Equipo() {
   }
 
   return (
-    <div className="px-8 mt-20">
+    <div className="px-8 mt-20 xl:mt-32">
       {/* Título y Descripción */}
       <RouteTitle
         title="¿Quiénes somos?"
@@ -43,7 +43,7 @@ function Equipo() {
       />
 
       {/* Miembros del equipo */}
-      <div className="flex flex-col space-y-10 mt-10 items-center">
+      <div className="flex flex-col space-y-10 mt-10 items-center xl:flex xl:flex-row xl:space-x-14 xl:space-y-0 xl:mt-16 xl:items-center xl:justify-center">
         {equipo.map((integrante, index) => {
           return (
             <div
@@ -61,13 +61,13 @@ function Equipo() {
                   onClick={() => handleImageSelection(integrante.nombre)}
                 />
                 {imagenSeleccionada === integrante.nombre && (
-                  <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 rounded-lg">
+                  <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-[#1f1f1f] bg-opacity-50 rounded-lg">
                     <p className="text-white p-8">{integrante.descripcion}</p>
                   </div>
                 )}
               </div>
 
-              <div className="flex flex-row font-grotesk text-sm mt-2">
+              <div className="flex flex-row font-grotesk text-sm mt-2 xl:text-base">
                 <p>{integrante.nombre}</p>
                 <span className="text-[#1F1F1F]/50">&nbsp;&#183;&nbsp;</span>
                 <p className="text-[#1F1F1F]/50">{integrante.cargo}</p>

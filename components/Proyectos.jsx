@@ -6,7 +6,7 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
 function Proyectos() {
   return (
-    <div className="px-8 mt-20">
+    <div className="px-8 mt-20 xl:mt-32">
       {/* Título y Descripción */}
       <RouteTitle
         title="Nuestros proyectos"

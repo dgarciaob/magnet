@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       {/* Main Blue Div */}
-      <div className="xl:h-[480px] h-[410px] rounded-b-[50px] bg-gradient-to-b from-[#0D0760] from-20% to-[#5746F4] to-100%">
+      <div className="xl:h-[550px] lg:h-[500px] h-[410px] rounded-b-[50px] bg-gradient-to-b from-[#0D0760] from-20% to-[#5746F4] to-100%">
         <NavBar />
         <HeroSection />
       </div>

@@ -8,7 +8,7 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
 function Servicios() {
   return (
-    <div className="px-8 mt-20">
+    <div className="px-8 mt-20 xl:mt-32">
       {/* Título y Descripción */}
       <RouteTitle
         title="¿Cómo podemos ayudarte?"
@@ -17,11 +17,11 @@ function Servicios() {
 
       {/* Service Cards */}
       <div>
-        <div className="flex flex-col space-y-10 mt-10 items-center">
+        <div className="flex flex-col space-y-10 mt-10 items-center xl:flex xl:flex-row xl:space-x-14 xl:space-y-0 xl:mt-16 xl:items-center xl:justify-center">
           {serviciosDetalle.map((servicio, index) => (
             <div
               key={servicio.title + index}
-              className={`bg-gradient-to-br from-blue-500 to-purple-400 p-6 rounded-xl shadow-md text-white font-grotesk max-w-[280px]`}
+              className="bg-gradient-to-br from-blue-500 to-purple-400 p-6 rounded-xl shadow-md text-white font-grotesk max-w-[280px]"
             >
               <h2 className="text-2xl font-semibold mb-4">{servicio.title}</h2>
               <p className="text-sm">{servicio.description}</p>
@@ -39,14 +39,14 @@ function Servicios() {
       </div>
 
       {/* Herramientas */}
-      <div className="mt-20">
+      {/* <div className="mt-20 xl:mt-32">
         <RouteTitle
           title="Lo que usamos"
           description="Las mejores herramientas para proyectos de alto impacto y calidad, alineadas a tus objetivos."
         />
 
         <ScrollArea>
-          <div className="mt-10 flex flex-row space-x-10">
+          <div className="mt-10 flex flex-row space-x-10 xl:justify-center">
             {tools.map((herramienta, index) => {
               return (
                 <div
@@ -70,7 +70,7 @@ function Servicios() {
           </div>
           <ScrollBar orientation="horizontal" />
         </ScrollArea>
-      </div>
+      </div> */}
     </div>
   );
 }

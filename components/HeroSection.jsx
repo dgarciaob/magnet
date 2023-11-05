@@ -10,7 +10,7 @@ import animationData from "../public/assets/AnimationPhone";
 
 function HeroSection() {
   return (
-    <div className="xl:px-28 px-8 mt-12">
+    <div className="lg:px-28 px-8 mt-12">
       {/* Brand Slogan & Hero Image */}
       <div className="flex flex-row space-x-4 sm:justify-between">
         {/* Brand Slogan */}
@@ -32,7 +32,7 @@ function HeroSection() {
       <div>
         {/* Description */}
         <div className="mt-3">
-          <p className="font-grotesk text-white/60 text-sm max-w-[350px]">
+          <p className="font-grotesk text-white/60 text-sm max-w-[350px] xl:text-lg xl:max-w-[500px]">
             A través de un equipo experimentado, diseñamos y desarrollamos
             páginas web, apps y lo que te imagines.
           </p>
@@ -41,12 +41,12 @@ function HeroSection() {
         {/* CTA Buttons */}
         <div className="flex flex-row space-x-5 mt-12">
           <div>
-            <Button className="rounded-[40px] text-[12px] text-[#F4FFF8] bg-transparent h-7 px-3 w-24 border border-white font-grotesk">
+            <Button className="rounded-[40px] text-[12px] text-[#F4FFF8] bg-transparent h-7 px-3 w-24 xl:h-10 xl:px-6 xl:w-32 xl:text-base border border-white font-grotesk">
               Servicios
             </Button>
           </div>
           <div>
-            <Button className="rounded-[40px] text-[12px] text-[#0D0760] bg-[#F4FFF8] h-7 px-3 w-24 hover:bg-[#F4FFF8]/80 font-grotesk">
+            <Button className="rounded-[40px] text-[12px] text-[#0D0760] bg-[#F4FFF8] h-7 px-3 w-24 xl:h-10 xl:px-6 xl:w-32 xl:text-base hover:bg-[#F4FFF8]/80 font-grotesk">
               <Link
                 href={`https://wa.me/51999936189?text=${encodeURIComponent(
                   "Hola!, vengo de magnetperu.com y quisiera más información sobre ."

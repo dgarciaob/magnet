@@ -36,6 +36,12 @@ export const misProyectos = [
     height: 388,
   },
   {
+    titulo: "Zerendor Website",
+    imagen: "/images/zere.jpeg",
+    width: 179,
+    height: 388,
+  },
+  {
     titulo: "Pet Marketplace App",
     imagen: "/images/HomepageHollypet.png",
     width: 179,
@@ -44,6 +50,12 @@ export const misProyectos = [
   {
     titulo: "Branding",
     imagen: "/images/Inicio.png",
+    width: 546,
+    height: 388,
+  },
+  {
+    titulo: "Dashboard",
+    imagen: "/images/DashboardTrackealo.png",
     width: 546,
     height: 388,
   },

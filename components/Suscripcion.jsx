@@ -66,7 +66,7 @@ function Suscripcion() {
   const [yearly, setYearly] = useState(true);
 
   return (
-    <div className="px-8 mt-20">
+    <div className="px-8 mt-20 xl:mt-32">
       {/* Título y Descripción */}
       <RouteTitle
         title="Planes de Suscripción"

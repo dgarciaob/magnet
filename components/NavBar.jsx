@@ -119,7 +119,7 @@ function NavBar() {
       </Button>
 
       <div className="hidden md:block">
-        <Button className="rounded-[40px] text-[12px] text-[#0D0760] bg-[#F4FFF8] h-9 px-3 hidden md:block hover:bg-[#F4FFF8]/80 font-grotesk">
+        <Button className="rounded-[40px] text-[12px] text-[#0D0760] bg-[#F4FFF8] h-9 px-3 hidden md:block xl:h-10 xl:px-3 xl:w-32 xl:text-base hover:bg-[#F4FFF8]/80 font-grotesk">
           <Link
             href={`https://wa.me/51999936189?text=${encodeURIComponent(
               "Hola!, vengo de magnetperu.com y quisiera más información sobre ."
